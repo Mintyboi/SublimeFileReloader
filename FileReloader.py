@@ -1,8 +1,10 @@
 import sublime, sublime_plugin
 
-class ReloadAllFilesCommand(sublime_plugin.WindowCommand):
+class ReloadCurFileCommand(sublime_plugin.WindowCommand):
   def run(self):
-    self.focus_all_views()
+    window = self.window
+    window.run_command("revert")
+    # self.focus_all_views()
 
   def focus_all_views(self):
     window = self.window

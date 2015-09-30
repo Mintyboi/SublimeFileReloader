@@ -19,7 +19,7 @@ The default key binding is `F5`.
 To add a key binding, open "Preferences / Key Bindings - User" and add:
 
 ``` js
-{ "keys": ["ctrl+shift+r"], "command": "reload_all_files" }
+{ "keys": ["ctrl+shift+r"], "command": "reload_cur_file" }
 ```
 
 With this setting, pressing <kbd>ctrl + shift + r</kbd> will reload all open files! For OSX users, quoting wbond:

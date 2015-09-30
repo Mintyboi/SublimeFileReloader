@@ -1,6 +1,6 @@
 [
     {
-        "caption": "Reload Open Files",
-        "command": "reload_all_files"
+        "caption": "Reload Current File",
+        "command": "reload_cur_file"
     }
 ]
